@@ -14,13 +14,7 @@ body p {
   margin: 0;
   padding: 0;
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
 
 .main {
   background-image: url("/images/bg-header-desktop.png");
@@ -45,6 +39,7 @@ body p {
   align-items: center;
   justify-content: center;
   background-color: hsl(171, 66%, 44%);
+  box-shadow: 2px 4px 20px -2px hsl(171, 66%, 44%);
   color: white;
   height: 36px;
   width: 145px;
@@ -55,6 +50,7 @@ body p {
   align-items: center;
   justify-content: center;
   background-color: hsl(233, 100%, 69%);
+  box-shadow: 2px 4px 20px -2px hsl(233, 100%, 69%);
   color: white;
   height: 36px;
   width: 145px;
@@ -152,51 +148,75 @@ body p {
   background-color: hsl(171, 66%, 44%);
   color: white;
   height: 36px;
+  box-shadow: 2px 4px 20px -2px hsl(171, 66%, 44%);
   width: 145px;
   border-radius: 18px;
 }
+
 .container2b {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: hsl(233, 100%, 69%);
+  box-shadow: 2px 4px 20px -2px hsl(233, 100%, 69%);
   color: white;
   height: 36px;
   width: 145px;
   border-radius: 18px;
+
 }
 
 footer {
   background-color: hsl(180, 10%, 88%);
-  height: 110px;
+}
+
+.attribution {
+  font-size: 11px;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  align-items: center;
+  justify-items: center;
+  height: 150px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 .logo{
-    display: flex;
     align-items: center;
     justify-content:flex-start;
 }
 
 .logo img {
-  width: 40px;
+  width: 60px;
 }
 
-.info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
+.info-container{
+  width: 75%;
+  justify-self: start;
 }
 
-.info2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 70px;
+.info{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+justify-items: start;
+gap: 10px;
+font-size: 1.1rem;
 }
 
 .socials {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
+}
+
+.socials img{
+  height: 30px;
+}
+
+.info div:hover p{
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
 }
