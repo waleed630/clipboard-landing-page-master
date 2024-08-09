@@ -121,11 +121,7 @@ body p {
 }
 
 .features img{
-  width: 40px;
-}
-
-.features:nth-child(3) img{
-  margin-bottom: 6px;
+  height: 35px;
 }
 
 .eighth {
