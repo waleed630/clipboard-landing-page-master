@@ -13,6 +13,7 @@ body p {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -98,23 +99,30 @@ body p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 58px;
   margin: 65px 0px;
 }
 
-.black-list {
-  display: flex;
-  flex-direction: column;
+.sev-cont{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 50%;
+  gap: 50px;
 }
 
-.plain-text {
-  display: flex;
-  flex-direction: column;
+.features{
+  display: grid;
+  grid-template-rows: 0.5fr 0.6fr 2fr;
+  justify-items: center;
+  align-items: start;
 }
 
-.sneak-preview {
-  display: flex;
-  flex-direction: column;
+.features h3{
+  text-wrap: nowrap;
+}
+
+.features img{
+  height: 35px;
+  margin-bottom: 35px; 
 }
 
 .eighth {
@@ -199,7 +207,7 @@ footer {
 
 .info{
 display: grid;
-grid-template-columns: repeat(3, 1fr);
+grid-template-columns: repeat(3, 1fr); 
 grid-template-rows: repeat(2, 1fr);
 justify-items: start;
 gap: 10px;
