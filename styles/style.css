@@ -102,6 +102,7 @@ body p {
   margin: 65px 0px;
 }
 
+
 .sev-cont{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
