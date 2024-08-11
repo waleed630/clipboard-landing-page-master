@@ -1,0 +1,52 @@
+@media screen and (max-width:1000px){
+   .main img{
+    width:45vw;
+   }
+   .main p{
+    margin:0 10px ;
+   }
+   .button{
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    gap:3vh;
+   }
+   .container1{
+    height:6vh;
+    width: 80vw;
+   }
+   .container2{
+    height:6vh;
+    width: 80vw;
+   }
+   .second{
+    margin:0 20px;
+   }
+
+   .third {
+   flex-direction: column;
+    /*justify-items: center;*/
+   }
+
+   .computer-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .computer-image img{
+    width:68vw;
+    position: static;
+   }
+ 
+   .paragraph h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .paragraph p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+}
