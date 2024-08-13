@@ -25,11 +25,11 @@
 
    .third {
    flex-direction: column;
-    /*justify-items: center;*/
    }
 
    .computer-image{
     display: flex;
+    height: 450px;
     justify-content: center;
     align-items: center;
    }
@@ -37,6 +37,7 @@
    .computer-image img{
     width:68vw;
     position: static;
+    margin: 0;
    }
  
    .paragraph h3{
