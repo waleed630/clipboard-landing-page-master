@@ -69,6 +69,7 @@ body p {
   position: relative;
 }
 
+
 .computer-image img {
   margin: 106px 0px auto auto;
   position: relative;
@@ -101,8 +102,6 @@ body p {
   text-align: center;
   margin: 65px 0px;
 }
-
-
 
 .sev-cont{
   display: grid;
