@@ -1,58 +1,129 @@
-@media screen and (max-width:1000px){
-   .main img{
-    width:45vw;
-   }
-   .main p{
-    margin:0 10px ;
-   }
-   .button{
+@media screen and (max-width: 1000px) {
+  .main img {
+    width: 45vw;
+  }
+  .main p {
+    margin: 0 10px;
+  }
+  .button {
     flex-direction: column;
     align-items: center;
     font-size: larger;
-    gap:3vh;
-   }
-   .container1{
-    height:6vh;
+    gap: 3vh;
+  }
+  .container1 {
+    height: 6vh;
     width: 80vw;
-   }
-   .container2{
-    height:6vh;
+  }
+  .container2 {
+    height: 6vh;
     width: 80vw;
-   }
-   .second{
-    margin:0 20px;
-   }
+  }
+  .second {
+    margin: 0 20px;
+  }
 
-   .third {
-   flex-direction: column;
-   }
+  .third {
+    flex-direction: column;
+    text-align: center;
+  }
 
-   .computer-image{
+  .computer-image {
     display: flex;
     height: 450px;
     justify-content: center;
     align-items: center;
-   }
+  }
 
-   .computer-image img{
-    width:68vw;
+  .computer-image img {
+    width: 68vw;
     position: static;
     margin: 0;
-   }
- 
-   .paragraph h3{
+  }
+
+  .paragraph {
+    margin: 0;
+  }
+
+  .paragraph h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-   }
-   .paragraph p{
+  }
+  .paragraph p {
     display: flex;
     align-items: center;
     justify-content: center;
-   }
+  }
 
-   .fifth img{
-      width:85vw;
-   }
+  .fourth {
+    margin: 113px 0 64px 0;
+  }
 
+  .fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fourth-cont {
+    width: 80%;
+  }
+
+  .fifth img {
+    width: 85vw;
+  }
+
+  .sev-cont {
+    display: block;
+  }
+
+  .eighth {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .nineth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nine-cont {
+    width: 80%;
+  }
+
+  .button2 {
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    gap: 3vh;
+  }
+
+  .container1b {
+    height: 6vh;
+    width: 80vw;
+  }
+
+  .container2b {
+    height: 6vh;
+    width: 80vw;
+  }
+  .attribution {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info div {
+    width: max-content;
+  }
+
+  .socials {
+    gap: 40px;
+  }
 }

@@ -16,7 +16,6 @@ body p {
   box-sizing: border-box;
 }
 
-
 .main {
   background-image: url("/images/bg-header-desktop.png");
   background-repeat: no-repeat;
@@ -69,7 +68,6 @@ body p {
   position: relative;
 }
 
-
 .computer-image img {
   margin: 106px 0px auto auto;
   position: relative;
@@ -103,27 +101,27 @@ body p {
   margin: 65px 0px;
 }
 
-.sev-cont{
+.sev-cont {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 70%;
   gap: 50px;
 }
 
-.features{
+.features {
   display: grid;
   grid-template-rows: 0.5fr 0.6fr 2fr;
   justify-items: center;
   align-items: start;
 }
 
-.features h3{
+.features h3 {
   text-wrap: nowrap;
 }
 
-.features img{
+.features img {
   height: 35px;
-  margin-bottom: 35px; 
+  margin-bottom: 35px;
 }
 
 .eighth {
@@ -172,7 +170,6 @@ body p {
   height: 36px;
   width: 145px;
   border-radius: 18px;
-
 }
 
 footer {
@@ -192,27 +189,27 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-.logo{
-    align-items: center;
-    justify-content:flex-start;
+.logo {
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .logo img {
   width: 60px;
 }
 
-.info-container{
+.info-container {
   width: 75%;
   justify-self: start;
 }
 
-.info{
-display: grid;
-grid-template-columns: repeat(3, 1fr); 
-grid-template-rows: repeat(2, 1fr);
-justify-items: start;
-gap: 10px;
-font-size: 1.1rem;
+.info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: start;
+  gap: 10px;
+  font-size: 1.1rem;
 }
 
 .socials {
@@ -221,11 +218,11 @@ font-size: 1.1rem;
   gap: 20px;
 }
 
-.socials img{
+.socials img {
   height: 30px;
 }
 
-.info div:hover p{
+.info div:hover p {
   color: hsl(171, 66%, 44%);
   cursor: pointer;
 }
