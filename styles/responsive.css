@@ -50,4 +50,9 @@
     align-items: center;
     justify-content: center;
    }
+
+   .fifth img{
+      width:85vw;
+   }
+
 }
